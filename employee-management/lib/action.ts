@@ -1,14 +1,15 @@
 "use server";
  
-import { z } from "zod"; //npm i zod https://www.npmjs.com/package/zod
+import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+
  
 const EmployeeSchema = z.object({
   name: z.string().min(6),
   email: z.string().min(6),
-  phone: z.string().min(11),
+  phone: z.string().min(10),
 });
  
 export const saveEmployee = async (prevSate: any, formData: FormData) => {
