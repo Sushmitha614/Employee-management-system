@@ -1,17 +1,4 @@
-// const Employee = async () => {
-//       return(
-//         <>
-        
-//         <h1>Employee</h1>
-//         </>
-//       );
-//   };
-   
-//   export default Employee;
 
-
-
-//app/employee/page.tsx
 import Link from "next/link";
 import { getEmployeelist } from "@/lib/action";
 import { formatDate } from "@/lib/utils";
@@ -27,7 +14,7 @@ const Employee = async ({
     return (
     <div className="w-screen py-20 flex justify-center flex-col items-center">
       <div className="flex items-center justify-between gap-1 mb-5">
-        <h1 className="text-4xl font-bold">Next.js 14 CRUD Create, Read, Update and Delete <br/>Prisma PostgreSQL | TailwindCSS DaisyUI</h1>
+        <h1 className="text-4xl font-bold"> Employee Mangement </h1>
       </div>
     <div className="overflow-x-auto">
         <div className="mb-2 w-full text-right">

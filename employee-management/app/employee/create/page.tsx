@@ -11,7 +11,7 @@ const CreateEmployeePage = () => {
         <div>
         <form action={formAction}>
         <div className="mb-5">
-          <label htmlFor="name" className="block text-sm font-medium text-gray-900">
+          <label htmlFor="name" className="block text-sm font-medium text-gray-100">
             Full Name
           </label>
           <input
@@ -26,7 +26,7 @@ const CreateEmployeePage = () => {
           </div>
         </div>
         <div className="mb-5">
-          <label htmlFor="email" className="block text-sm font-medium text-gray-900">
+          <label htmlFor="email" className="block text-sm font-medium text-gray-100">
             Email
           </label>
           <input
@@ -42,7 +42,7 @@ const CreateEmployeePage = () => {
         </div>
         <div className="mb-5">
           <label
-            htmlFor="phone" className="block text-sm font-medium text-gray-900">
+            htmlFor="phone" className="block text-sm font-medium text-gray-100">
             Phone Number
           </label>
           <input
