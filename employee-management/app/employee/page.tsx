@@ -24,8 +24,8 @@ const Employee = async ({
             Create
           </Link>
         </div>
-        <table className="table table-zebra">
-        <thead className="text-sm text-gray-700 uppercase bg-gray-50">
+        <table className="table ">
+        <thead className="text-sm text-gray-500 uppercase bg-gray-50">
             <tr>
             <th className="py-3 px-6">#</th>
             <th className="py-3 px-6">Name</th>
@@ -35,7 +35,7 @@ const Employee = async ({
             <th className="py-3 px-6 text-center">Actions</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody >
             {employees.map((rs, index) => (
             <tr key={rs.id} className="bg-white border-b">
                 <td className="py-3 px-6">{index + 1}</td>
